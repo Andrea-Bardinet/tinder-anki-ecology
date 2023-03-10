@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello DefaultController!{% endblock %}
+
+{% block body %}
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-3 p-2">
+            <a type="button" class="btn btn-outline-dark" href="{{path('app_card_index')}}">Cards</a>
+        </div>
+        <div class="col-3 p-2">
+            <a type="button" class="btn btn-outline-dark" href="{{path('app_category_index')}}">Categories</a>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}
